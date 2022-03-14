@@ -1,18 +1,21 @@
 #include <stdio.h>
-
 /**
- * main - prints the alphabet in lowercase,
- * followed by a new line
+ * main - Entry point
+ *
  * Return: Always 0 (Success)
  */
 int main(void)
-{
-	char ch;
 
-	for (ch = 'a'; ch <= 'z'; ch++)
-	{
-		putchar(ch);
-	}
-	putchar('\n');
-	return (0);
-}}
+{
+char letter; /*Decarling statement*/
+
+for (letter = 'a'; letter <= 'z'; letter++)
+{
+putchar(letter);
+}
+
+putchar('\n');
+
+return (0);
+
+}
